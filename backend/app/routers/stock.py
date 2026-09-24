@@ -13,7 +13,7 @@ router = APIRouter(
 )
 
 
-# Excel column -> SQL column
+# Excel column -> SQL column mapping based on the supplied "Stock Sheet Mapping.xlsx" file.
 COLUMN_MAPPING = {
     "G/F/P": "GFP",
     "Plant": "Plant",
