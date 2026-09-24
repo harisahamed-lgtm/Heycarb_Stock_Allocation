@@ -1,0 +1,22 @@
+Python 
+Open command prompt
+go to folder 
+cd..
+
+Run FastAPI 
+cd users\user\fastapi-react-demo\backend
+.\venv\Scripts\activate
+python -m uvicorn app.main:app --reload --port 8000
+
+Run React 
+Open a new command prompt
+cd users\user\fastapi-react-demo\frontend
+npm run dev
+
+load application 
+http://localhost:5173/
+
+
+
+Observations 
+- In Excel there are 2 columns as Grade, CTC and BD. Can we name them as Grade1, CTC1 and BD1
